@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            width: 90%;
+            margin: 0 auto;
+            font-size: 150%;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .img1 img {
+            height: 200px;
+        }
+
+        .img1,
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            line-height: 200%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Изображения-->
+    <div class="img1">
+        <img src="img/ivan.jpg" alt="Иван" id="circle">
+        <img src="img/konf2.jpg" alt="Конфеты">
+        <img src="img/konf6.jpg" alt="Конфеты">
+        <img src="img/konf4.jpg" alt="Конфеты">
+    </div>
+
+    <h2>Конфетный калькулятор</h2>
+    <p>
+        За правильно решенную сложную задачу по математике
+        Ваня получает определенное количество вкусных конфет от папы.
+        Введите количество вкусных конфет за задачу и количество правильно решенных сложных задач.
+        Вычислите сколько конфет получит Ваня.
+    </p>
+
+    <!--Форма-->
+    <form>
+        <input type="text" id="num1"> Сложные задачи <br>
+        <input type="text" id="num2"> Вкусные Конфеты <br>
+        <input type="submit" value="Вычислить" onclick="calculate()">
+    </form>
+
+    <!--Блок для вывода результатов-->
+    <div class="rez"></div>
+
+    <!--Подключение файла sweets.js-->
+    <script src="main.js"></script>
+</body>
+
+</html>

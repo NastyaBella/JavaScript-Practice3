@@ -1,0 +1,28 @@
+*{margin:0; padding:0;}
+body{background-color:#FFC;}
+main{background-color: #9F6;
+width:80%;
+margin:0 auto;
+padding:10px;}
+h1,h2{text-align:center;
+color: #030;
+margin-bottom:10px;}
+.center{text-align:center;}
+.right{text-align:right}
+p{text-align:justify;
+margin-bottom:15px;}
+.img{ margin: 0px 10px 10px 0px;}
+span{
+    background-color: #030;
+     color:white; padding: 7px; 
+     border-radius: 5px;
+    }
+#dalee{display: none;}
+.button-link{
+    background-color: #030;
+    display:inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}

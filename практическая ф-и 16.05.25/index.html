@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПР ф-и</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Демонстрация различных типов функций</h1>
+    <div>
+        <h2>Калькулятор вычитания (Декларативная функция)</h2>
+        <input type="number" id="num1" placeholder="Первое число">
+        <input type="number" id="num2" placeholder="Второе число">
+        <button onclick="calculateSubtraction()">Вычислить разницу</button>
+        <div id="subResult" class="result"></div>
+    </div>
+    <div>
+        <h2>Возведение в степень (Функциональное выражение)</h2>
+        <input type="number" id="base" placeholder="Основание">
+        <input type="number" id="exponent" placeholder="Степень">
+        <button onclick="calculatePower()">Вычислить степень</button>
+        <div id="powerResult" class="result"></div>
+    </div>
+    <div>
+        <h2>Сумма чисел (Стрелочная функция)</h2>
+        <input type="number" id="x" placeholder="Первое число">
+        <input type="number" id="y" placeholder="Второе число">
+        <button onclick="calculateSum()">Вычислить сумму</button>
+        <div id="sumResult" class="result"></div>
+    </div>
+    <div>
+        <h2>Изменение стилей (Анонимная функция)</h2>
+        <button id="size">Увеличить текст</button>
+        <p id="demoText">Пример текста для изменения размера</p>
+    </div>
+    <div>
+        <h2>Таймер (Рекурсивная функция)</h2>
+        <button onclick="startTimer(0)">Запустить таймер</button>
+        <div id="rec" class="result"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            line-height: 200%;
+            font-family: 'Pacifico', cursive;
+            font-family: 'Lobster', cursive;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+
+        #rezult1,
+        #rezult2 {
+            color: black
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Проверка вводимого числа на четность</h2>
+    <form action="">
+        Введите число:<input type="text" id='namber1'><BR>
+        <button onclick="checkone()">Проверка на четность</button>
+        <input type="reset" value="Очистить">
+    </form>
+    <div id='rezult1'></div>
+
+    <!--Проверка заполненности элементов формы-->
+    <h2>Проверка заполненности элементов формы</h2>
+    <form action="">
+        <input type="text" name="login" id="log">Введите логин<BR>
+        <input type="password" name="password" id="pas">Введите пароль<BR>
+        <button onclick="checktwo()">Проверка</button>
+        <input type="reset" value="Очистить">
+    </form>
+    <div id='rezult2'></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
